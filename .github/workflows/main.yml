@@ -3,8 +3,8 @@ name: auto-signin
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 17 * * *'
-    - cron: '0 11 * * *'
+    - cron: '0 8 * * *'
+    - cron: '0 10 * * *'
     #在这里设置UTC运行时间，如果不知道怎么配置可以问AI
     #实际运行时间会比设置时间延迟一小时以内，取决于当时github资源占用情况。
 
